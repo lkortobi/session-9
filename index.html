@@ -17,6 +17,21 @@
       width: 45rem;
     }
   </style>
+
+  <script>
+    function carteDeReduction(monAge){
+        var monAge = prompt("Saisissez votre âge")
+      if (monAge < 28 && monAge > 11){
+        alert("Vous avez la carte de réduction")
+      }else if (monAge > 59){
+        alert("Vous êtes senior, vous avez droit à la carte")
+      }else{
+        alert("Vous n'avez pas la carte de réduction")
+      }
+    }
+
+    carteDeReduction()
+  </script>
 </head>
 
 <body>
